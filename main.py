@@ -12,3 +12,5 @@ print(trial_monster)
 
 plant = Potted_plant()
 print(plant)
+print(plant.description())
+print(plant.bad_stuff())
