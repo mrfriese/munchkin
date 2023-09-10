@@ -1,8 +1,8 @@
 # holds player class settings for a single player
 
-class Munchkin():
+class Munchkin:
     
-    def __init__(self,):
+    def __init__(self):
         self.level = 1
         self.name = ""
         self.sex = ""
@@ -12,4 +12,3 @@ class Munchkin():
         self.armour = [None]
         self.footgear = [None]
         self.arm = [None, ]
-        

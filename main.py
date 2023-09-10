@@ -1,4 +1,5 @@
 from monsters import Monster, Potted_plant
+from turns import Game
 
 # work to be done
 
@@ -7,20 +8,19 @@ from monsters import Monster, Potted_plant
 # create game progession
 # ? multiplayer option ? 
 
-trial_monster = Monster()
-print(trial_monster)
+# trial_monster = Monster()
+# print(trial_monster)
 
-plant = Potted_plant()
-print(plant)
-print(plant.description())
-print(plant.bad_stuff())
-
+# plant = Potted_plant()
+# print(plant)
+# print(plant.description())
+# print(plant.bad_stuff())
+# print()
 # eventual plan for the main loop
 # idea from dnd rpg lib
 
-# def main():
-#     game = Game()
-#     game.main_menu
-#     while True:
-#         game.next_turn()
-#         game.combat_system.start_combat("goblin")
+def main():
+    game = Game()
+    game.main_menu()
+    
+main()
