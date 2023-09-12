@@ -25,6 +25,7 @@ def main():
         turn.open_door()
         turn.loot_room()
         turn.character_optimize()
+        break
 
         # infinite loop 
     

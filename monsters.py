@@ -22,7 +22,7 @@ class Potted_plant(Monster):
         super().__init__(name, level=1, treasure=1)
 
     def description(self):
-        return("Elves draw an extra treasure after defeating it.")
+        print("Elves draw an extra treasure after defeating it.")
         # if race == "Elf":
         #     treasure += 1
         # else:
